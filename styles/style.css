@@ -1,31 +1,150 @@
+/* ------------VARIABLES------------ */
+
+:root {
+  --black: #000000;
+  --grey-dark: #1f1f1f;
+  --grey-light: #f2f2f2;
+  --blue: #2f80ed;
+}
+
+/* ------------PAGE------------ */
+
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+/* ------------MIXES------------ */
+
+.text_margins-reset {
+  margin: 0;
+}
+
+/* ------------HEADER------------ */
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 183px;
+}
+
+.logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  font: normal normal 600 102px/96px "Helvetica Neue", Arial, sans-serif;
+  color: var(--black);
+  z-index: 2;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  font: normal normal 400 18px/25px "Helvetica Neue", Arial, sans-serif;
+  color: var(--black);
+  z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
 .header__square-pic {
-  height: 568px;
   width: 568px;
+  height: 568px;
+  background-color: var(--blue);
+  position: absolute;
+  top: 64px;
+  right: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+/* ------------DESCRIPTION------------ */
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.two-columns__brief {
+  width: 175px;
+  font: normal normal 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
+  color: var(--blue);
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin-bottom: 30px;
+  font: normal normal 400 24px/34px "Helvetica Neue", Arial, sans-serif;
+  color: var(--black);
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
+}
+
+.two-columns__span-accent {
+  font: normal normal 600 24px/34px "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ------------DIGITS------------ */
+
+/* ------------FEYNMAN------------ */
+
+/* ------------KAUFMAN------------ */
+
+/* ------------FOOTER------------ */
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  height: 35px;
+  display: none;
+}
+
+/*
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
+*/ ;
