@@ -261,21 +261,6 @@
 
 /* ------------FOOTER------------ */
 
-.footer {
-  min-height: 350px;
-  background-color: var(--grey-dark);
-}
-
-.footer__columns {
-  width: 90%;
-}
-
-.logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);
-  height: 35px;
-  /* display: flex; Здесь проблема */
-}
-
 /* ------------THEME MIX------------ */
 
 .theme_dark {
