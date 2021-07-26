@@ -4,6 +4,7 @@
   --black: #000000;
   --grey-dark: #1f1f1f;
   --grey-light: #f2f2f2;
+  --white: #fff;
   --blue: #2f80ed;
 }
 
@@ -15,10 +16,14 @@
   margin: 0 auto;
 }
 
-/* ------------MIXES------------ */
+/* ------------MARGIN MIXES------------ */
 
-.text_margins-reset {
+.margins-reset {
   margin: 0;
+}
+
+.margin_bottom_s {
+  margin: 0 0 20px 0;
 }
 
 /* ------------HEADER------------ */
@@ -27,10 +32,10 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: var(--grey-light);
   position: relative;
   display: flex;
   align-items: center;
-  background-color: var(--grey-light);
 }
 
 .logo {
@@ -40,8 +45,8 @@
 }
 
 .logo_place_header {
-  background-image: url(../images/logo_place_header.svg);
   height: 32px;
+  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
   left: 64px;
@@ -49,25 +54,25 @@
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
-  font: normal normal 600 102px/96px "Helvetica Neue", Arial, sans-serif;
+  margin: 0 0 0 64px;
   color: var(--black);
+  font: normal normal 600 102px/96px "Helvetica Neue", Arial, sans-serif;
   z-index: 2;
 }
 
 .header__subtitle {
   width: 388px;
+  color: var(--black);
+  font: normal normal 400 18px/25px "Helvetica Neue", Arial, sans-serif;
   position: absolute;
   bottom: 30px;
   left: 64px;
-  font: normal normal 400 18px/25px "Helvetica Neue", Arial, sans-serif;
-  color: var(--black);
   z-index: 2;
 }
 
 .header__link {
-  text-decoration: none;
   color: var(--blue);
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -97,15 +102,15 @@
 
 .two-columns {
   width: 80%;
+  margin: 100px 0 0 0;
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
 }
 
 .two-columns__brief {
   width: 175px;
-  font: normal normal 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
   color: var(--blue);
+  font: normal normal 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
 }
 
 .two-columns__main-text {
@@ -115,8 +120,8 @@
 
 .two-columns__paragraph {
   margin: 0 0 30px 0;
-  font: normal normal 400 24px/34px "Helvetica Neue", Arial, sans-serif;
   color: var(--black);
+  font: normal normal 400 24px/34px "Helvetica Neue", Arial, sans-serif;
 }
 
 .two-columns__paragraph:last-child {
@@ -129,62 +134,51 @@
 
 /* ------------DIGITS------------ */
 
-.section-title {
-  width: 60%;
-  text-align: center;
-  font: normal normal 600 60px/1.15 "Helvetica Neue", Arial, sans-serif;
+.digits {
+  padding: 100px 0;
 }
 
-.section-title_position_digits {
-  margin: 100px auto 20px;
+.section-title {
+  width: 60%;
+  margin: 0 auto 20px;
+  text-align: center;
+  color: var(--black);
+  font: normal normal 600 60px/1.15 "Helvetica Neue", Arial, sans-serif;
 }
 
 .section-subtitle {
   width: 60%;
-  text-align: center;
-  font: normal normal 400 24px/34px "Helvetica Neue", Arial, sans-serif;
   margin: 0 auto;
+  text-align: center;
+  color: var(--black);
+  font: normal normal 400 24px/34px "Helvetica Neue", Arial, sans-serif;
 }
 
 .table {
   width: 1100px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
-}
-
-.table_position_digits {
-  margin-bottom: 100px;
 }
 
 .table__cell {
   width: 250px;
-}
-
-.table__cell_top-bottom-margins_s {
   margin: 60px 0;
 }
 
+.table__cell:nth-child(n + 5) {
+  margin: 0;
+}
+
 .table__heading {
+  color: var(--black);
   font: normal normal 600 24px/1.15 "Helvetica Neue", Arial, sans-serif;
 }
 
-.table__heading_margin_s {
-  margin: 0 0 20px 0;
-}
-
 .table__text {
+  color: var(--black);
   font: normal normal 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
-}
-
-.table__text_margin_s {
-  margin: 0 0 20px 0;
-}
-
-.table__text-reference {
-  font: normal normal 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
-  margin: 0;
 }
 
 /* ------------FEYNMAN------------ */
@@ -198,70 +192,68 @@
 
 .feynman__title {
   width: 648px;
-  text-align: center;
   margin: 0 auto;
-  font: normal normal 600 120px/1.15 "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
   color: var(--black);
+  font: normal normal 600 120px/1.15 "Helvetica Neue", Arial, sans-serif;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .feynman__subtitle {
-  width: 600px;
+  width: 648px;
   margin: 70px auto 0 auto;
   text-align: center;
+  color: var(--black);
   font: normal normal 400 36px/51px "Helvetica Neue", Arial, sans-serif;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .feynman__link {
+  color: var(--blue);
+  font: normal normal 400 36px/51px "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
   position: absolute;
   top: 50%;
   right: 48px;
-  font: normal normal 400 36px/51px "Helvetica Neue", Arial, sans-serif;
-  text-decoration: none;
-  color: var(--blue);
 }
 
 .feynman__image {
   width: 867px;
   height: 637px;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 1;
 }
+
 /* ------------KAUFMAN------------ */
 
 .kaufman {
   padding: 90px 0;
+  background-color: var(--grey-dark);
   position: relative;
   overflow: hidden;
-  background-color: var(--grey-dark);
 }
 
-.section-title_position_kaufman {
-  margin: 0 auto 20px;
-}
-
-.table__cell_size_kaufman {
+.table__cell_section_kaufman {
   width: 200px;
-}
-
-.table__cell_top-bottom-margins_m {
   margin: 80px 0;
 }
 
-.table__text_theme_dark {
-  color: var(--grey-light);
-  position: relative;
-  z-index: 1;
+.table__cell_section_kaufman:nth-child(n + 6) {
+  margin: 0;
 }
 
 .kaufman__triangle {
   width: 877px;
   height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
   top: 0;
   right: -210px;
@@ -284,11 +276,10 @@
   /* display: flex; Здесь проблема */
 }
 
-/*
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+/* ------------THEME MIX------------ */
+
+.theme_dark {
+  color: var(--white);
+  position: relative;
+  z-index: 1;
 }
-*/ ;
