@@ -302,6 +302,16 @@
   justify-content: space-between;
 }
 
+/*
+
+Не смог найти применение данным модификаторам:
+  .footer__column_content_info {
+  }
+  footer__column_content_social {
+  }
+
+*/
+
 .logo_place_footer {
   height: 35px;
   background-image: url(../images/logo_place_footer.svg);
