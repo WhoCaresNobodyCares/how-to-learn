@@ -41,4 +41,18 @@ page
       table__heading_theme_dark (modifier)
       table__text_theme_dark (medifier)
       kaufman__triangle (element)
+---
+    footer
+      footer__columns (element)
+      footer__column (element)
+      footer__column_content_copyright (modifier)
+      logo_place_footer (modifier)
+      footer__author (element)
+      footer__column_content_info (modifier)
+      footer__column-heading (element)
+      footer__column-links (element)
+      footer__column-link (element)
+      footer__column_content_social (modifier)
+      footer__social-icon (element)
+
 

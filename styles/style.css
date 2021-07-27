@@ -202,7 +202,7 @@
 /* * ------------FEYNMAN------------ */
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   padding-top: 100px;
   background-color: var(--grey-light);
   background-image: url(../images/feynman.png);
@@ -249,6 +249,8 @@
 
 .section-title_theme_dark {
   color: var(--white);
+  position: relative;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
@@ -293,29 +295,22 @@
 }
 
 .footer__columns {
-  min-height: 250px; /* !!! */
   width: 90%;
+  min-height: 250px; /* !!! */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
-  flex-basis: 711px;
+.footer__column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-/*
-
-Не смог найти применение данным модификаторам:
-  .footer__column_content_info {
-  }
-  footer__column_content_social {
-  }
-
-*/
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
 
 .logo_place_footer {
   height: 35px;
@@ -324,33 +319,36 @@
 
 .footer__author {
   margin: 18px 0;
+  color: var(--white);
   font: normal normal 400 18px/25px "Helvetica Neue", Arial, sans-serif;
 }
 
+.footer__column_content_info {
+}
+
 .footer__column-heading {
+  margin: 0 0 20px;
+  color: var(--white);
   font: normal normal 600 18px/30px "Helvetica Neue", Arial, sans-serif;
 }
 
 .footer__column-links {
-  padding: 0 0 16px 0;
+  padding: 0;
+  margin: 0 0 16px;
   list-style-type: none;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: var(--white);
+  font: normal normal 400 18px/30px "Helvetica Neue", Arial, sans-serif;
+}
+
+.footer__column_content_social {
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
-}
-
-.footer__column-link {
-  text-decoration: none;
-  font: normal normal 400 18px/30px "Helvetica Neue", Arial, sans-serif;
-}
-
-/* ------------THEME MIX------------ */
-
-.theme-dark {
-  color: var(--white);
-  position: relative;
-  z-index: 1;
 }
