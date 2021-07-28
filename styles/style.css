@@ -1,4 +1,4 @@
-/* * ------------VARIABLES------------ * */
+/* ------------VARIABLES------------ * */
 
 :root {
   --black: #000000;
@@ -8,7 +8,7 @@
   --blue: #2f80ed;
 }
 
-/* * ------------FEATURES------------ * */
+/* ------------FEATURES------------ * */
 
 ::selection {
   color: var(--white);
@@ -27,7 +27,7 @@
   background: var(--blue);
 }
 
-/* * ------------PAGE------------ * */
+/* ------------PAGE------------ * */
 
 .page {
   min-width: 1100px;
@@ -36,7 +36,7 @@
   box-sizing: border-box;
 }
 
-/* * ------------HEADER------------ */
+/* ------------HEADER------------ */
 
 .header {
   height: 100vh;
@@ -106,7 +106,7 @@
   right: 0;
 }
 
-/* * ------------DESCRIPTION------------ */
+/* ------------DESCRIPTION------------ */
 
 .description {
   padding-top: 100px;
@@ -146,7 +146,7 @@
   font: normal normal 600 24px/34px "Helvetica Neue", Arial, sans-serif;
 }
 
-/* * ------------DIGITS------------ */
+/* ------------DIGITS------------ */
 
 .digits {
   padding: 100px 0;
@@ -199,7 +199,7 @@
   margin: 0;
 }
 
-/* * ------------FEYNMAN------------ */
+/* ------------FEYNMAN------------ */
 
 .feynman {
   min-height: 790px;
@@ -238,7 +238,7 @@
   right: 48px;
 }
 
-/* * ------------KAUFMAN------------ */
+/* ------------KAUFMAN------------ */
 
 .kaufman {
   padding: 90px 0;
@@ -291,12 +291,13 @@
 
 .footer {
   padding: 60px 0 40px;
+  min-height: 250px;
   background-color: var(--grey-dark);
+  display: flex;
 }
 
 .footer__columns {
   width: 90%;
-  min-height: 250px; /* !!! */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -323,8 +324,10 @@
   font: normal normal 400 18px/25px "Helvetica Neue", Arial, sans-serif;
 }
 
+/*
 .footer__column_content_info {
 }
+*/
 
 .footer__column-heading {
   margin: 0 0 20px;
@@ -344,8 +347,10 @@
   font: normal normal 400 18px/30px "Helvetica Neue", Arial, sans-serif;
 }
 
+/*
 .footer__column_content_social {
 }
+*/
 
 .footer__social-icon {
   width: 16px;
