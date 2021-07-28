@@ -324,10 +324,7 @@
   font: normal normal 400 18px/25px "Helvetica Neue", Arial, sans-serif;
 }
 
-/*
-.footer__column_content_info {
-}
-*/
+/* ! .footer__column_content_info {} */
 
 .footer__column-heading {
   margin: 0 0 20px;
@@ -347,10 +344,7 @@
   font: normal normal 400 18px/30px "Helvetica Neue", Arial, sans-serif;
 }
 
-/*
-.footer__column_content_social {
-}
-*/
+/* ! .footer__column_content_social {} */
 
 .footer__social-icon {
   width: 16px;
