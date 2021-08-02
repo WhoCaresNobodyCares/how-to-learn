@@ -1,18 +1,18 @@
 /* ------------VARIABLES------------ * */
 
 :root {
-  --black: #000000;
-  --grey-dark: #1f1f1f;
-  --grey-light: #f2f2f2;
-  --white: #fff;
-  --blue: #2f80ed;
+  --main-black: #000000;
+  --main-white: #fff;
+  --background-dark: #1f1f1f;
+  --background-light: #f2f2f2;
+  --accent-blue: #2f80ed;
 }
 
 /* ------------FEATURES------------ * */
 
 ::selection {
-  color: var(--white);
-  background-color: var(--blue);
+  color: var(--main-white);
+  background-color: var(--accent-blue);
 }
 
 ::-webkit-scrollbar {
@@ -20,11 +20,11 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--white);
+  background: var(--main-white);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--blue);
+  background: var(--accent-blue);
 }
 
 /* ------------PAGE------------ * */
@@ -41,7 +41,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: var(--grey-light);
+  background-color: var(--background-light);
   position: relative;
   display: flex;
   align-items: center;
@@ -64,16 +64,16 @@
 .header__title {
   width: 730px;
   margin: 0 0 0 64px;
-  color: var(--black);
-  font: normal normal 600 102px/96px "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-black);
+  font: 600 102px/96px "Helvetica Neue", Arial, sans-serif;
   z-index: 2;
 }
 
 .header__subtitle {
   width: 388px;
   margin: 0;
-  color: var(--black);
-  font: normal normal 400 18px/25px "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-black);
+  font: 400 18px/25px "Helvetica Neue", Arial, sans-serif;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -81,7 +81,7 @@
 }
 
 .header__link {
-  color: var(--blue);
+  color: var(--accent-blue);
   text-decoration: none;
 }
 
@@ -99,7 +99,7 @@
 .header__square-pic {
   width: 568px;
   height: 568px;
-  background-color: var(--blue);
+  background-color: var(--accent-blue);
   position: absolute;
   top: 64px;
   right: 0;
@@ -122,8 +122,8 @@
 .two-columns__brief {
   width: 175px;
   margin: 0;
-  color: var(--blue);
-  font: normal normal 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
+  color: var(--accent-blue);
+  font: 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
 }
 
 .two-columns__main-text {
@@ -133,8 +133,8 @@
 
 .two-columns__paragraph {
   margin: 0 0 30px 0;
-  color: var(--black);
-  font: normal normal 400 24px/34px "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-black);
+  font: 400 24px/34px "Helvetica Neue", Arial, sans-serif;
 }
 
 .two-columns__paragraph:last-child {
@@ -142,7 +142,7 @@
 }
 
 .two-columns__span-accent {
-  font: normal normal 600 24px/34px "Helvetica Neue", Arial, sans-serif;
+  font: 600 24px/34px "Helvetica Neue", Arial, sans-serif;
 }
 
 /* ------------DIGITS------------ */
@@ -155,16 +155,16 @@
   width: 60%;
   margin: 0 auto 20px;
   text-align: center;
-  color: var(--black);
-  font: normal normal 600 60px/1.15 "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-black);
+  font: 600 60px/1.15 "Helvetica Neue", Arial, sans-serif;
 }
 
 .section-subtitle {
   width: 60%;
   margin: 0 auto;
   text-align: center;
-  color: var(--black);
-  font: normal normal 400 24px/34px "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-black);
+  font: 400 24px/34px "Helvetica Neue", Arial, sans-serif;
 }
 
 .table {
@@ -184,14 +184,14 @@
 
 .table__heading {
   margin: 0 0 20px 0;
-  color: var(--black);
-  font: normal normal 600 24px/1.15 "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-black);
+  font: 600 24px/1.15 "Helvetica Neue", Arial, sans-serif;
 }
 
 .table__text {
   margin: 0 0 20px 0;
-  color: var(--black);
-  font: normal normal 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-black);
+  font: 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
 }
 
 .table__text:last-child {
@@ -203,7 +203,7 @@
 .feynman {
   min-height: 790px;
   padding-top: 100px;
-  background-color: var(--grey-light);
+  background-color: var(--background-light);
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -216,21 +216,21 @@
   width: 648px;
   margin: 0 auto;
   text-align: center;
-  color: var(--black);
-  font: normal normal 600 120px/1.15 "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-black);
+  font: 600 120px/1.15 "Helvetica Neue", Arial, sans-serif;
 }
 
 .feynman__subtitle {
   width: 648px;
   margin: 70px auto 0 auto;
   text-align: center;
-  color: var(--black);
-  font: normal normal 400 36px/51px "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-black);
+  font: 400 36px/51px "Helvetica Neue", Arial, sans-serif;
 }
 
 .feynman__link {
-  color: var(--blue);
-  font: normal normal 400 36px/51px "Helvetica Neue", Arial, sans-serif;
+  color: var(--accent-blue);
+  font: 400 36px/51px "Helvetica Neue", Arial, sans-serif;
   text-decoration: none;
   position: absolute;
   top: 50%;
@@ -241,19 +241,19 @@
 
 .kaufman {
   padding: 90px 0;
-  background-color: var(--grey-dark);
+  background-color: var(--background-dark);
   position: relative;
   overflow: hidden;
 }
 
 .section-title_theme_dark {
-  color: var(--white);
+  color: var(--main-white);
   position: relative;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark {
-  color: var(--white);
+  color: var(--main-white);
 }
 
 .table_theme_dark {
@@ -267,11 +267,11 @@
 }
 
 .table__heading_theme_dark {
-  color: var(--white);
+  color: var(--main-white);
 }
 
 .table__text_theme_dark {
-  color: var(--white);
+  color: var(--main-white);
 }
 
 .kaufman__triangle {
@@ -292,7 +292,7 @@
   box-sizing: border-box;
   min-height: 350px;
   padding: 60px 0 40px;
-  background-color: var(--grey-dark);
+  background-color: var(--background-dark);
   display: flex;
 }
 
@@ -320,16 +320,14 @@
 
 .footer__author {
   margin: 18px 0;
-  color: var(--white);
-  font: normal normal 400 18px/25px "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-white);
+  font: 400 18px/25px "Helvetica Neue", Arial, sans-serif;
 }
-
-/* ! .footer__column_content_info {} */
 
 .footer__column-heading {
   margin: 0 0 20px;
-  color: var(--white);
-  font: normal normal 600 18px/30px "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-white);
+  font: 600 18px/30px "Helvetica Neue", Arial, sans-serif;
 }
 
 .footer__column-links {
@@ -340,11 +338,9 @@
 
 .footer__column-link {
   text-decoration: none;
-  color: var(--white);
-  font: normal normal 400 18px/30px "Helvetica Neue", Arial, sans-serif;
+  color: var(--main-white);
+  font: 400 18px/30px "Helvetica Neue", Arial, sans-serif;
 }
-
-/* ! .footer__column_content_social {} */
 
 .footer__social-icon {
   width: 16px;
