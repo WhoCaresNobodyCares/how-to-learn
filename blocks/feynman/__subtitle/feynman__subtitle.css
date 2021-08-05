@@ -1,0 +1,7 @@
+.feynman__subtitle {
+  width: 648px;
+  margin: 70px auto 0 auto;
+  text-align: center;
+  color: var(--main-black);
+  font: 400 36px/51px "Helvetica Neue", Arial, sans-serif;
+}

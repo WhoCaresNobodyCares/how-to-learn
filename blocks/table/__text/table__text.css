@@ -1,0 +1,9 @@
+.table__text {
+  margin: 0 0 20px 0;
+  color: var(--main-black);
+  font: 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
+}
+
+.table__text:last-child {
+  margin: 0;
+}
