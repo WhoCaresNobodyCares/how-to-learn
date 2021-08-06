@@ -1,5 +1,5 @@
 .khan__author-subline {
   margin: 0 0 68px 0;
   color: var(--main-black);
-  font: 400 24px/1.15 "Helvetica Neue", Arial, sans-serif;
+  font: var(--khan__author-subline);
 }

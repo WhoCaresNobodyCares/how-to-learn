@@ -1,5 +1,5 @@
 .footer__column-heading {
   margin: 0 0 20px;
   color: var(--main-white);
-  font: 600 18px/30px "Helvetica Neue", Arial, sans-serif;
+  font: var(--footer__column-heading);
 }

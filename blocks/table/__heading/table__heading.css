@@ -1,5 +1,5 @@
 .table__heading {
   margin: 0 0 20px 0;
   color: var(--main-black);
-  font: 600 24px/1.15 "Helvetica Neue", Arial, sans-serif;
+  font: var(--table__heading);
 }

@@ -3,5 +3,5 @@
   margin: 0 auto;
   text-align: center;
   color: var(--main-black);
-  font: 400 24px/34px "Helvetica Neue", Arial, sans-serif;
+  font: var(--section-subtitle);
 }

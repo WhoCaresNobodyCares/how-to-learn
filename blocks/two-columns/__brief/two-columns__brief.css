@@ -2,5 +2,5 @@
   width: 175px;
   margin: 0;
   color: var(--accent-blue);
-  font: 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
+  font: var(--two-columns__brief);
 }

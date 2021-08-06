@@ -3,5 +3,5 @@
   margin: 0 auto;
   text-align: center;
   color: var(--main-black);
-  font: 600 120px/1.15 "Helvetica Neue", Arial, sans-serif;
+  font: var(--feynman__title);
 }

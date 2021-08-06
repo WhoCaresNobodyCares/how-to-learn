@@ -1,8 +1,13 @@
 .feynman__link {
   color: var(--accent-blue);
-  font: 400 36px/51px "Helvetica Neue", Arial, sans-serif;
+  font: var(--feynman__link);
   text-decoration: none;
   position: absolute;
   top: 50%;
   right: 48px;
+  transition: opacity 1s ease;
+}
+
+.feynman__link:hover {
+  opacity: 0.6;
 }

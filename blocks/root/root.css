@@ -1,9 +1,34 @@
 :root {
+  /* colors */
   --main-black: #000000;
   --main-white: #fff;
   --background-dark: #1f1f1f;
   --background-light: #f2f2f2;
   --accent-blue: #2f80ed;
+  /* fonts */
+  --header__title: 600 102px/96px "Helvetica Neue", Arial, sans-serif;
+  --header__subtitle: 400 18px/25px "Helvetica Neue", Arial, sans-serif;
+  --two-columns__brief: 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
+  --two-columns__paragraph: 400 24px/34px "Helvetica Neue", Arial, sans-serif;
+  --two-columns__span-accent: 600 24px/34px "Helvetica Neue", Arial, sans-serif;
+  --section-title: 600 60px/1.15 "Helvetica Neue", Arial, sans-serif;
+  --section-subtitle: 400 24px/34px "Helvetica Neue", Arial, sans-serif;
+  --cards__title: 600 24px/1.15 "Helvetica Neue", Arial, sans-serif;
+  --cards__description: 400 18px/23px "Helvetica Neue", Arial, sans-serif;
+  --feynman__title: 600 120px/1.15 "Helvetica Neue", Arial, sans-serif;
+  --feynman__subtitle: 400 36px/51px "Helvetica Neue", Arial, sans-serif;
+  --feynman__link: 400 36px/51px "Helvetica Neue", Arial, sans-serif;
+  --table__heading: 600 24px/1.15 "Helvetica Neue", Arial, sans-serif;
+  --table__text: 400 18px/1.2 "Helvetica Neue", Arial, sans-serif;
+  --khan__author: 400 30px/42px "Helvetica Neue", Arial, sans-serif;
+  --khan__title: 600 60px/1.15 "Helvetica Neue", Arial, sans-serif;
+  --khan__quote: 400 24px/34px "Helvetica Neue", Arial, sans-serif;
+  --khan__quote-author: 600 24px/1.15 "Helvetica Neue", Arial, sans-serif;
+  --khan__author-subline: 400 24px/1.15 "Helvetica Neue", Arial, sans-serif;
+  --khan__buy-link: 400 30px/42px "Helvetica Neue", Arial, sans-serif;
+  --footer__author: 400 18px/25px "Helvetica Neue", Arial, sans-serif;
+  --footer__column-heading: 600 18px/30px "Helvetica Neue", Arial, sans-serif;
+  --footer__column-link: 400 18px/30px "Helvetica Neue", Arial, sans-serif;
 }
 
 ::selection {
