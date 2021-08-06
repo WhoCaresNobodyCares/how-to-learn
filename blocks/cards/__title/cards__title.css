@@ -1,0 +1,6 @@
+.cards__title {
+  margin: 0 0 16px 0;
+  color: var(--main-black);
+  text-align: center;
+  font: 600 24px/1.15 "Helvetica Neue", Arial, sans-serif;
+}

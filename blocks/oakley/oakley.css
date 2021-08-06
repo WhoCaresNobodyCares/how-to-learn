@@ -1,0 +1,6 @@
+.oakley {
+  background-color: var(--background-light);
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+}
