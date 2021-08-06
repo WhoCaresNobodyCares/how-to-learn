@@ -1,0 +1,5 @@
+.khan__buy-link {
+  color: var(--accent-blue);
+  font: 400 30px/42px "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
+}
