@@ -2,4 +2,9 @@
   background-repeat: no-repeat;
   background-size: contain;
   width: 183px;
+  transition: opacity 1s ease;
+}
+
+.logo:hover {
+  opacity: 0.6;
 }

@@ -2,4 +2,9 @@
   text-decoration: none;
   color: var(--main-white);
   font: var(--footer__column-link);
+  transition: opacity 1s ease;
+}
+
+.footer__column-link:hover {
+  opacity: 0.6;
 }

@@ -2,9 +2,4 @@
   padding: 0;
   margin: 0 0 16px;
   list-style-type: none;
-  transition: opacity 1s ease;
-}
-
-.footer__column-link:hover {
-  opacity: 0.6;
 }
