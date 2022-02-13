@@ -1,10 +1,11 @@
 # How to Learn
-## Yandex project
-This is my first project.
+## О проекте
+Первый учебный проект в Яндекс.Практикуме. Верстка одностраничного сайта.
+## Технологии
+- HTML5
+- CSS3
+- Flexbox
+- Grid Layout
+## Методология
+- BEM
 
----
-## Technologies used
-I've used: HTML/CSS, coffee and the content of my skull. 🙃
-
----
-**By WhoCares**
